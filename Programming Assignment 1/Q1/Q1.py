@@ -3,6 +3,8 @@ import itertools
 import heapq
 import math
 
+# The Implementation has parts of code written by ChatGPT-4 and parts written by me.
+
 class Inference:
     def __init__(self, data):
         """
@@ -807,4 +809,4 @@ class Get_Input_and_Check_Output:
 if __name__ == '__main__':
     evaluator = Get_Input_and_Check_Output('TestCases.json')
     evaluator.get_output()
-    evaluator.write_output('Output.json')
+    evaluator.write_output('OutputQ1.json')
